@@ -1,0 +1,46 @@
+// styles/_reset.scss
+
+// Удаляем отступы и поля по умолчанию
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  // Очищаем базовые стили для всех элементов
+  html, body {
+    height: 100%;
+    font-family: sans-serif; // Вы можете указать свой шрифт
+    color: #333; // Цвет текста по умолчанию
+  }
+  
+  a {
+    text-decoration: none; // Убираем подчеркивание у ссылок
+    color: inherit; // Используем цвет родителя
+  }
+  
+  ul, ol {
+    list-style: none; // Убираем маркеры у списков
+  }
+  
+  img {
+    max-width: 100%; // Ограничиваем ширину изображений
+    height: auto; // Сохраняем пропорции изображения
+  }
+  
+  button {
+    border: none; // Убираем рамки у кнопок
+    background: none; // Убираем фон у кнопок
+    cursor: pointer; // Устанавливаем курсор в виде указателя
+  }
+  
+  input, textarea, select {
+    font-family: inherit; // Наследуем шрифт
+    font-size: inherit; // Наследуем размер шрифта
+    color: inherit; // Наследуем цвет текста
+  }
+  
+  // Адаптивность для мобильных устройств
+  @media (max-width: 600px) {
+    // Здесь дополнительные стили для мобильной версии
+  }
