@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  margin-bottom: 83px;
+}
+p {
+  margin-top: 24px;
+  color: #828282;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  padding-bottom: 222px;
+}
+.inner {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+    max-width: 50px;
+}

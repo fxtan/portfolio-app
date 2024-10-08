@@ -1,6 +1,8 @@
 import AboutMe from './components/aboutMe/aboutMe';
 import Header from './components/header/header';
+import Portfolio from './components/portfolio/portfolio';
 import Profile from './components/profile/profile';
+import Skills from './components/skills/skills';
 import './global.scss';
 import Button from './shared/button/button';
 import Container from './shared/container/container';
@@ -22,6 +24,8 @@ function App() {
         <Header/>
         <Profile/>
         <AboutMe/>
+        <Skills/>
+        <Portfolio/>
       </Container>
     </>
   );
