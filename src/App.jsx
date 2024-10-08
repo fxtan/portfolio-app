@@ -1,9 +1,11 @@
+import AboutMe from './components/aboutMe/aboutMe';
 import Header from './components/header/header';
 import Profile from './components/profile/profile';
 import './global.scss';
 import Button from './shared/button/button';
 import Container from './shared/container/container';
 import Title from './shared/title/title';
+
 function App() {
   return (
     <>
@@ -19,6 +21,7 @@ function App() {
 
         <Header/>
         <Profile/>
+        <AboutMe/>
       </Container>
     </>
   );

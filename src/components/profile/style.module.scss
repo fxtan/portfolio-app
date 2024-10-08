@@ -1,29 +1,26 @@
-.languages{
-    transform: rotate(-90deg);
-    display:flex;
-    align-items:center;
-    gap:5px;
-}
-
-.language {
-
+.languages {
+  transform: rotate(-90deg);
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .active {
+  font-weight: bold; /* или другое значение для отображения */
+}
 
-    font-weight: bold; /* или другое значение для отображения */
-    }
-.info{
+.top {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 48px;
+  color: rgb(0, 0, 0);
 
 }
-.top{
-    margin-top: 40px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.title{
-    font-size: 48px;
-    color: black;
+.item{
+  margin-bottom: 104px;
 }
