@@ -1,4 +1,5 @@
 import AboutMe from './components/aboutMe/aboutMe';
+import Contacts from './components/contacts/contacts';
 import Header from './components/header/header';
 import Portfolio from './components/portfolio/portfolio';
 import Profile from './components/profile/profile';
@@ -26,6 +27,7 @@ function App() {
         <AboutMe/>
         <Skills/>
         <Portfolio/>
+        <Contacts/>
       </Container>
     </>
   );

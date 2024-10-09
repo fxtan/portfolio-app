@@ -1,10 +1,30 @@
-.inner,h1{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 17px;
-    font-weight: bold;
+.inner {
+  // display: flex;
+  // justify-content: center;
+  // text-align: center;
+  // margin-bottom: 17px;
+  // font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 425px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
-.item{
-    margin-bottom: 107px;
+.item {
+  margin-bottom: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.last {
+  max-width: 320px;
 }
